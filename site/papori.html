@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
+<head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
 <meta charset="UTF-8">
 <body>
 	<h1 style="font-family: Sofia, sans-serif;">Hi Love</h1>
+	<h2>Please Play the Video. </h2>
 <video width="320" height="240" controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
@@ -12,49 +18,92 @@
 
 <p>So,</p>
 <p>Hi Jaan.</p>
-<p>FInally the day has arrived. It's your Birthday!!!!</p>
+<p>Finally the day has arrived. It's your Birthday!!!!</p>
 <p>Now see a poem written by me,for you.❤️❤️&#128151;</p>
 <img src="love.jpg"  width="600" height="800">
-<div>HAPPY BIRTHDAY JAAN &#128151;</div>
-
+<h3 class="font-effect-shadow-multiple">
+	HAPPIEST BIRTHDAY JAAN. MAY GOD BLESS YOU WITH EVERY POSSIBLE HAPPINESS,LOVE AND PROSPERITY. THE LAST 6 MONTHS IS BEEN VERY WONDERFUL WITH YOU. YOU'VE BEEN A CONSTANT INSPIRATION FOR ME. MAY YOU EXPERIENCE EVERY HAPPINESS OF LIFE,I JUST WISH THAT. DON'T WORRY,I WILL KEEP ON MAKING YOU SMILE EVERYDAY. IF THIS WEBSITE GAVE A SMILE ON YOUR FACE,JUST GO AND TEXT ME "I LOVE YOU",I'LL BE THE HAPPIEST.❤️
+</h3>
+<img src="pori.jpg"  width="600" height="800" style="margin-top: 60px;">
+<h4 class="font-effect-fire">
+	The starting of our love....&#128151; <p>Till Forever.</p>
+</h4>
+<div class="wrapper">
+    <div class="typing-demo">
+     I Love You BUBU.❤️
+    </div>
+</div>
+<footer>
+	Made with &#128151; by BHARGAB.
+</footer>
 </body>
+
 <style>
+	footer{
+		text-align: center;
+		size: 20px;
+		font-weight: bold;
+	}
 	div{
-		  font-size: 5rem;
-	    text-align: center;
-      height:90vh;
-      line-height: 90vh;
-	    color: #fcedd8;
-	    
-	   	font-family: 'Niconne', cursive;
-	    font-weight: 700;
-      text-shadow: 5px 5px 0px #eb452b, 
-                  10px 10px 0px #efa032, 
-                  15px 15px 0px #46b59b, 
-                  20px 20px 0px #017e7f, 
-                  25px 25px 0px #052939, 
-                  30px 30px 0px #c11a2b, 
-                  35px 35px 0px #c11a2b, 
-                  40px 40px 0px #c11a2b, 
-                  45px 45px 0px #c11a2b;
+		color: blue;
+		font-family: Oswald, sans-serif;
+		font-size: 30px;
+		text-shadow: 2px 2px 5px red;
+
+	}
+	.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-p{
-    text-align: center;
-    font-family: "Helvetica";
-    font-size:0.8rem;
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
 }
 
-a{
-    color: #d52e3f;
-    text-decoration: none;
-    font-family: 'Niconne', cursive;
-    font-size: 1.2rem;
-
+@keyframes typing {
+  from {
+    width: 0
+  }
 }
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+	h3{
+		margin-top: 80px;
+		font-size: 30px;
+		text-shadow: 2px 2px 5px red;
+		font-family: Oswald, sans-serif;
+		text-align: center;
+
+	}
+	h4{
+ font-size: 30px;
+ text-align: center;
+ font-family:  Oswald, sans-serif;		
+	}
 	h1{
 		text-align: center;
 		text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	}
+	h2{
+		font-size: 30px;
+		text-shadow: 2px 2px 5px red;
+		font-family: Oswald, sans-serif;
+		
+		text-align: center;
+
 	}
 	p{
 		
@@ -64,7 +113,7 @@ a{
 		text-align: center;
 	}
 	img{
-		 
+		  border-radius: 8px;
 		max-width: 100%;
   height: auto;
   display: block;
